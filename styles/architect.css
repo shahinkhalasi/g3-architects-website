@@ -16,6 +16,7 @@
 .btn-primary {
     border-radius: 8px;
     background: #FF900E;
+    margin-top: 54px;
     padding: 20px 25px;
     color: #FFF;
     font-size: 20px;
@@ -61,6 +62,7 @@ nav li a {
 .banner-content {
     max-width: 800px;
     text-align: center;
+    padding-top: 102px;
     margin: 0 auto;
 }
 
@@ -72,7 +74,7 @@ nav li a {
 
 .banner img {
     width: 100%;
-    padding-top: 20px;
+    padding-top: 50px;
 }
 
 /* Main Styles */
@@ -100,6 +102,7 @@ main {
 
 .teams-title {
     font-size: 2.8rem;
+    padding-bottom: 24px;
 }
 
 .teams-title .quick-list {
@@ -118,10 +121,17 @@ main {
     display: flex;
     gap: 100px;
 }
+.feature-content .section-title{
+    padding-bottom: 24px;
+}
 
 .features .section-title {
     border-left: 5px solid #FF900E;
     padding-left: 20px;
+    margin-bottom: 24px;
+}
+.feature-content .text-light-gray{
+    padding-bottom: 30px;
 }
 
 .features .feature-content .card h4 {
@@ -156,7 +166,14 @@ main {
     font-size: 1.5rem;
 }
 /* Facts Section */
+.facts{
+    padding-top: 130px;
+}
+.facts p{
+    padding-top: 24px;
+}
 .facts-card-container {
+    padding-top: 100px;
     display: flex;
     justify-content: space-around;
 }
@@ -185,8 +202,15 @@ main {
 /* Sponsors Section Styles */
 .sponsors {
     text-align: center;
+    padding-top: 180px;
 }
 
+.sponsors .section-title{
+    padding-bottom: 24px;
+}
+.sponsors .text-light-gray{
+    padding-bottom: 50px;
+}
 .sponsors-img-container {
     margin-top: 50px;
     gap: 40px;
@@ -205,7 +229,9 @@ main {
     header {
         padding: 20px;
     }
-
+    .teams-content{
+        padding-top: 20px;
+    }
     nav,
     .teams-container,
     .facts-card-container, .features
